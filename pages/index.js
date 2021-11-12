@@ -1,11 +1,14 @@
+import { useState } from "react";
 import Header from "../components/menu/Header";
 import Nav from "../components/menu/Nav";
 
 export default function Home() {
+  const [openMenu, setOpenMenu] = useState(false);
+
   return (
-    <div>
-      <Header/>
-      <Nav/>
-    </div>
+    <main>
+      <Header isOpen={()=>setOpenMenu(!openMenu)}/>
+      <Nav open={openMenu}/>
+    </main>
   )
 }

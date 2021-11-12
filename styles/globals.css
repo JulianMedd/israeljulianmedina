@@ -18,3 +18,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.textRotate {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
