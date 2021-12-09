@@ -12,7 +12,7 @@ export const ActiveLink = ({link}) => {
                 <span className="text-xs font-bold absolute top-2 left-0">
                     {link.number}
                 </span>
-                <a className={`pl-6 ${isCurrentPath && "text-indigo-700 font-semibold"}`}>{link.name}</a>
+                <a className={`pl-6 ${isCurrentPath && "text-indigo-700"}`}>{link.name}</a>
             </li>
         </Link>
     )
