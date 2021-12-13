@@ -3,6 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      zIndex: {
+        '-1': '-10',
+       },
+      fontSize: {
+        '10xl': '300px' 
+      },
       animation: {
         'apear': 'apear 3s ease-in-out',
       },

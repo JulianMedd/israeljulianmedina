@@ -13,7 +13,7 @@ export const Nav = ({open, isOpen}) => {
             <h2 className="textRotate text-gray-400 font-thin tracking-widest">
                 I S R A E L  J U L I A N  M E D I N A
             </h2>
-            <ul className="h-full text-2xl font-extralight py-4 text-gray-400 flex flex-col justify-evenly cursor-pointer animate-apear">
+            <ul className="h-full text-2xl font-extralight py-4 text-gray-400 flex flex-col justify-evenly animate-apear">
                 {
                     MenuLinks.map((link)=><ActiveLink link={link} key={link.name}/>)
                 }

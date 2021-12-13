@@ -7,11 +7,7 @@ export const AboutMe = () => {
     return (
         <main>
             <NavBar/>
-            <div className="w-screen h-screen pt-16">
-                <div>
-                    <Hero/>
-                </div>
-            </div>
+            <Hero/>
         </main>
     )
 }
