@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/hero/Hero";
+import About from "../components/aboutMe/About";
 import NavBar from "../components/menu";
 
 export const AboutMe = () => {
@@ -7,7 +7,7 @@ export const AboutMe = () => {
     return (
         <main>
             <NavBar/>
-            <Hero/>
+            <About/>
         </main>
     )
 }

@@ -4,7 +4,7 @@ export const Header = ({isOpen}) => {
     return(
         <header className="h-14 w-full bg-indigo-700 flex justify-between items-center fixed px-6 top-0 z-40 md:hidden">
             <div className="flex items-center justify-start">
-                <h1 className="text-white font-thin tracking-widest animate-apear">I S R A E L  J U L I A N  M E D I N A </h1>
+                <h1 className="text-white font-thin tracking-widest animate-apear">ISRAEL JULIAN MEDINA</h1>
                 <span className="ml-2 font-semibold text-white animate-pulse">|</span>
             </div>
             <svg onClick={()=>isOpen()} 

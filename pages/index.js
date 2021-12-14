@@ -1,12 +1,13 @@
 import React from "react";
+import Hero from "../components/hero/Hero";
 import NavBar from "../components/menu";
 
 export default function Home() {
 
   return (
     <main>
-      {/* estos componentes pasar a un index.js todo junto, con el useState */}
       <NavBar/>
+      <Hero/>
     </main>
   )
 }
