@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <LayoutSection over={true}>
             
-                <div className="relative w-full h-1/2 px-8 pt-8 text-center md:px-2 md:w-1/2">
+                <div className="relative w-full h-1/2 px-8 pt-8 text-center md:px-2 lg:w-1/2">
                     <div className="-z-1 leading-none absolute -left-10 -top-20 text-10xl font-black text-indigo-100">
                         <p>HO</p>
                         <p className="-mt-20">LA!</p>
@@ -24,7 +24,7 @@ const Hero = () => {
                             </a>
                     </div>
                 </div>
-                <div className="w-3/4 h-1/2 overflow-hidden lg:self-end md:w-1/2 lg:h-4/5">
+                <div className="w-3/4 h-1/2 overflow-hidden lg:self-end lg:w-1/2 lg:h-4/5">
                     <Image
                         src={fotoPerfil}
                         layout='responsive'

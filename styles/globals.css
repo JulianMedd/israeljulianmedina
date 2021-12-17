@@ -23,3 +23,7 @@ a {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
 }
+
+.shape{
+  border-radius: 50% 50% 48% 52% / 37% 35% 65% 63%  ;
+}
