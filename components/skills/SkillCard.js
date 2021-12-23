@@ -1,15 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
-const SkillCard = () => {
+const SkillCard = ({skill}) => {
     return (
-        <article className="w-20 h-32 flex flex-col items-center p-2">
-            <div className="w-4/5 h-4/5 bg-indigo-700">
-                <div className="h-full w-full">
-                    {/* Image */}
+        <article className="w-24 h-32 flex flex-col items-center p-2">
+            <div className="w-10 h-14">
+                <div className="h-full">
+                    <Image
+                        src={skill.url}
+                        layout="responsive"
+                    />
                 </div>
             </div>
-            <h2 className="pt-2 text-indigo-700 text-base font-medium">
-                {/* tittle */}TTULOO
+            <h2 className="pt-2 text-indigo-500 text-center text-xs font-thin">
+                {/* tittle */}{skill.title}
             </h2>
         </article>
     )

@@ -12,7 +12,7 @@ const LayoutSection = ({children, over=false,title=""}) => {
                 </section>
             ):(
                 <section className="animate-apear pt-20 w-screen lg:h-full md:pl-60">
-                    <div className="flex flex-col items-center lg:h-4/5">
+                    <div className="w-full flex flex-col items-center">
                         <h2 className="text-indigo-700 font-thin tracking-widest pb-3 mb-14 text-2xl border-b-4 animate-pulse">
                             {title}
                         </h2>

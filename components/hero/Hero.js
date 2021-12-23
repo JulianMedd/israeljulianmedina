@@ -2,6 +2,7 @@ import React from "react";
 import Image from 'next/image';
 import fotoPerfil from "../../public/foto_perfil.png";
 import LayoutSection from "../layout/LayoutSection";
+// import cv from "../../public/Cv_IsraelJulianMedina.pdf";
 
 const Hero = () => {
     return (
@@ -18,8 +19,8 @@ const Hero = () => {
                     <div className="mt-3">
                         <a  
                             className="p-3 bg-indigo-700 rounded-lg text-white"
-                            download="" 
-                            href="/../../public/Cv_IsraelJulianMedina.pdf" >
+                            target='_blank'
+                            href="../../public/Cv_IsraelJulianMedina.pdf">
                                 DESCARGAR CV
                             </a>
                     </div>
