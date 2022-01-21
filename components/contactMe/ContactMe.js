@@ -4,7 +4,7 @@ import FormContact from './FormContact';
 
 const ContactMe = () => {
     return (
-        <LayoutSection title='CONTACT ME'>
+        <LayoutSection title='CONTACTO'>
             <div className="w-full h-full md:px-6">
                 <FormContact/>
             </div>
