@@ -6,6 +6,12 @@ export const personalProjects = [
         tools: "Html, Css, JavaScript, ReactJs, NextJs, Tailwind, Formik, Git, Git Hub"
     },
     {
+        name: "BINANCE DASHBOARD",
+        url: "https://github.com/JulianMedd/binance-dashboard",
+        description: "App realizada para practicar e incorporar nuevos conocimientos con NextJs, como las rutas y el consumo de una api",
+        tools: "Html, Css, JavaScript, NextJs, Tailwind, Context, Fetch, Git, Git Hub"
+    },
+    {
         name: "ECOMMERCE-REGALERIA",
         url: "https://github.com/JulianMedd/Regaleria_ecommerce",
         description: "Mi primer app con ReactJs, realizada en uno de los curasos realizado en CODER HOUSE",
@@ -16,11 +22,5 @@ export const personalProjects = [
         url: "https://github.com/JulianMedd/ProyectoFinal_ISURUS",
         description: "Mi primer WEB realizada, donde incorpore los primeros pasos y conocimientos del desarrollo web",
         tools: "Html, Css, Bootstrap, Scss, Git, Git Hub"
-    },
-    {
-        name: "BINANCE DASHBOARD",
-        url: "https://github.com/JulianMedd/binance-dashboard",
-        description: "App realizada para practicar e incorporar nuevos conocimientos con NextJs, como las rutas y el consumo de una api",
-        tools: "Html, Css, JavaScript, NextJs, Tailwind, Context, Fetch, Git, Git Hub"
     }
 ]

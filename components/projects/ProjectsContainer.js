@@ -1,10 +1,26 @@
 import React from 'react';
 import LayoutSection from '../layout/LayoutSection';
+import { personalProjects } from './Helpers';
+import ProjectCard from './ProjectCard';
 
 const ProjectsContainer = () => {
     return (
         <LayoutSection title='PROYECTOS'>
-            
+            <div className='flex flex-wrap items-center justify-between gap-2'>
+                {
+                    personalProjects.map((project)=>(
+                        <ProjectCard 
+                            key={project.name}
+                            name={project.name}
+                            description={project.description}
+                            url={project.url}
+                            tools={project.tools}
+                        />
+                            
+                        )
+                    )
+                }
+            </div>
         </LayoutSection>
     )
 }

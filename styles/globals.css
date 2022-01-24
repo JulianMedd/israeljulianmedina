@@ -27,3 +27,11 @@ a {
 .shape{
   border-radius: 50% 50% 48% 52% / 37% 35% 65% 63%  ;
 }
+
+.card .cardDescription {
+  display: none;
+}
+
+.card:hover .cardDescription{
+  display: flex;
+}
