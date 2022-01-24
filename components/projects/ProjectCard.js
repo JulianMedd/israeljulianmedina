@@ -6,12 +6,12 @@ const ProjectCard = ({ name, description, url, tools }) => {
             <div className='w-full h-16 px-4 pt-2 text-white rounded-t-md bg-gray-300 group-hover:bg-indigo-400 '>
                 <h3 className=' font-normal '>{name}</h3>
             </div>
-            <div className='cardDescription px-4 py-4 font-light text-gray-300 group-hover:text-indigo-400'>
+            <div className='cardDescription bg-white flex-col gap-2 px-4 py-4 font-light text-indigo-400'>
                 <div>
-                    <p className='leading-none text-sm'>{ description }</p>
+                    <p className='leading-none text-sm border-b-2 pb-4'>{ description }</p>
                 </div>
                 <div>
-                    <p className='leading-none'>{tools}</p>
+                    <p className='leading-none text-gray-300 text-center'>{tools}</p>
                 </div>
             </div>
             <div className='w-full bg-indigo-400 rounded-b-lg text-white px-4 py-2'>
