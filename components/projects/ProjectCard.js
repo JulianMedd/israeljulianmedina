@@ -15,7 +15,7 @@ const ProjectCard = ({ name, description, url, tools }) => {
                 </div>
             </div>
             <div className='w-full bg-indigo-400 rounded-b-lg text-white px-4 py-2'>
-                <a href={url} target="_blank">ver codigo</a>
+                <a href={url} rel='noreferrer'>ver codigo</a>
             </div>
         </div>
     )

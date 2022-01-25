@@ -7,7 +7,7 @@ export const ActiveLink = ({link}) => {
     const isCurrentPath = router.asPath === link.url;
 
     return (
-        <Link href={link.url}>
+        <Link href={link.url} passHref>
             <li className="relative">
                 <span className="text-xs font-bold absolute top-2 left-0">
                     {link.number}

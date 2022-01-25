@@ -7,6 +7,7 @@ const SkillCard = ({skill}) => {
             <div className="w-10 h-14">
                 <div className="h-full">
                     <Image
+                        alt={skill.title}
                         src={skill.url}
                         layout="responsive"
                     />
