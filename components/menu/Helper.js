@@ -1,21 +1,21 @@
 export const MenuLinks = [
     {
-        name: "sobre mi",
+        name: "SOBRE MI",
         number: "01",
         url: "/about-me"
     },
     {
-        name: "skills",
+        name: "SKILLS",
         number: "02",
         url: "/skills"
     },
     {
-        name: "proyectos",
+        name: "PROYECTOS",
         number: "03",
         url: "/projects"
     },
     {
-        name: "contacto",
+        name: "CONTACTO",
         number: "04",
         url: "/contact"
     },
