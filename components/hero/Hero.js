@@ -19,8 +19,9 @@ const Hero = () => {
                         <div className="mt-3">
                             <a  
                                 className="p-3 bg-indigo-700 rounded-lg text-white"
-                                target='_blank'
-                                href="../../public/Cv_IsraelJulianMedina.pdf">
+                                href="../../public/Cv_IsraelJulianMedina.pdf"
+                                download="Cv_IsraelJulianMedina.pdf"
+                            >
                                     DESCARGAR CV
                                 </a>
                         </div>
