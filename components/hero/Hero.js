@@ -13,16 +13,18 @@ const Hero = () => {
                         <p>HO</p>
                         <p className="-mt-20">LA!</p>
                     </div>
-                    <p className="text-4xl font-thin text-indigo-900">MI NOMBRE ES</p>
-                    <h1 className="text-4xl font-semibold text-indigo-900">JULIAN MEDINA</h1>
-                    <h2 className="text-2xl font-thin text-indigo-900 py-6">DESARROLLADOR FRONTEND | REACT JS</h2>
-                    <div className="mt-3">
-                        <a  
-                            className="p-3 bg-indigo-700 rounded-lg text-white"
-                            target='_blank'
-                            href="../../public/Cv_IsraelJulianMedina.pdf">
-                                DESCARGAR CV
-                            </a>
+                    <div>
+                        <p className="text-4xl font-thin text-indigo-900">MI NOMBRE ES</p>
+                        <h1 className="text-4xl font-semibold text-indigo-900">JULIAN MEDINA</h1>
+                        <h2 className="text-2xl font-thin text-indigo-900 py-6">DESARROLLADOR FRONTEND | REACT JS</h2>
+                        <div className="mt-3">
+                            <a  
+                                className="p-3 bg-indigo-700 rounded-lg text-white"
+                                target='_blank'
+                                href="../../public/Cv_IsraelJulianMedina.pdf">
+                                    DESCARGAR CV
+                                </a>
+                        </div>
                     </div>
                 </div>
                 <div className="w-3/4 h-1/2 overflow-hidden lg:self-end lg:w-1/2 lg:h-4/5">
