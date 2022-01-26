@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard';
 const ProjectsContainer = () => {
     return (
         <LayoutSection title='PROYECTOS'>
-            <div className='flex flex-wrap items-center justify-center gap-2'>
+            <div className='flex flex-col md:flex-row md:flex-wrap justify-center gap-2'>
                 {
                     personalProjects.map((project)=>(
                         <ProjectCard 

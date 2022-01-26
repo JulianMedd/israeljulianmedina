@@ -7,7 +7,6 @@ const NavBar = () => {
 
     const openMenu = ()=> {
         setIsOpen(!isOpen)
-        console.log(isOpen)
     }
 
     return (
