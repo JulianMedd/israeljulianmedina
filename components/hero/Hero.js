@@ -20,7 +20,7 @@ const Hero = () => {
                             <a  
                                 className="p-3 bg-indigo-700 rounded-lg text-white"
                                 href="../../public/Cv_IsraelJulianMedina.pdf"
-                                download="Cv_IsraelJulianMedina.pdf"
+                                download
                             >
                                     DESCARGAR CV
                                 </a>
