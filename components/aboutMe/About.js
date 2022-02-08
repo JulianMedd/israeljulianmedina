@@ -2,6 +2,7 @@ import React from 'react';
 import LayoutSection from '../layout/LayoutSection';
 import Image from 'next/image';
 import fotoPerfil from "../../public/foto_perfil.png";
+import ButtonContact from '../layout/ButtonContact';
 
 const About = () => {
     return (
@@ -34,6 +35,9 @@ const About = () => {
                                 <p>De forma autodidacta descubrí que la programación es mi verdadera pasión, desde entonces decidí no parar de aprender y continué con cursos e investigando para perfeccionar mis habilidades. Debido a esto tome la decision de dejar mi anterior profesion (diseñador gráfico) e incursionar en el rubro IT anotandome en la carrera de Lic. en Informatica en la U.N.O.. Por esto me considero un Desarrollador en busca de mi primera experiencia laboral en el rubro.</p>
                                 <p>Soy un apasionado por este mundo, por ende siempre estaré dispuesto a nuevos desafíos y a aprender nuevas tecnologías y/o lenguajes.</p>
                                 <p>Me gustaría desenvolverme en este mundo tecnológico y poder ser parte de su equipo de trabajo, con el fin de desarrollar y mejorar mis habilidades, avanzando en conjunto.</p>
+                                <div className='w-3/5'>
+                                    <ButtonContact/>
+                                </div>
                             </div>
                         </div>
                     </article>
