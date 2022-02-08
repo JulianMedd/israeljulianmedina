@@ -40,3 +40,11 @@ a {
   opacity: 1;
   z-index: 9;
 }
+
+.grayScale {
+  filter: grayscale(1)
+}
+
+.grayScale:hover {
+    filter: grayscale(0)
+}

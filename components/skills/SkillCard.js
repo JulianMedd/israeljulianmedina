@@ -2,10 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 
 const SkillCard = ({skill}) => {
+   
     return (
         <article className="w-24 h-32 flex flex-col items-center p-2">
-            <div className="w-10 h-14">
-                <div className="h-full">
+            <div className="w-10 h-14 grayScale">
+                <div className="h-full" >
                     <Image
                         alt={skill.title}
                         src={skill.url}

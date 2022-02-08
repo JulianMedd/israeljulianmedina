@@ -18,7 +18,7 @@ const About = () => {
                                 />
                             </div>
                         </div>
-                        <div className="hidden lg:inline-block pt-4">
+                        <div className="hidden lg:inline-block pt-4 text-center">
                             <h3 className="text-indigo-700 text-xl font-medium">Mi nombre es Israel Julian Medina</h3>
                             <h4 className="text-sm font-light text-indigo-400">DESARROLLADOR FRONTEND | <span>REACT JS</span></h4>
                         </div>
@@ -26,7 +26,7 @@ const About = () => {
                         {/* texto */}
                     <article className="w-full lg:h-full lg:w-1/2 px-4 text-center lg:text-left">
                         <div className="flex flex-col items-center space-y-2 md:px-8">
-                            <div className="lg:hidden">
+                            <div className="lg:hidden text-center">
                                 <h3 className="text-indigo-700 text-xl font-medium">Mi nombre es Israel Julian Medina</h3>
                                 <h4 className="text-sm font-light text-indigo-400">DESARROLLADOR FRONTEND | <span>REACT JS</span></h4>
                             </div>
